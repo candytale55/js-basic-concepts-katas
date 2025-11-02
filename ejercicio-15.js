@@ -7,7 +7,7 @@ const products = [
     'Camiseta de Basket', 'Cinrurón de Orión', 'AC/DC Camiseta']
 
 for (item of products) {
-    if (item.includes("Camiseta" || "camiseta")) {
+    if (item.toLowerCase().includes("camiseta")) {
         console.log(item);
         }
     }
